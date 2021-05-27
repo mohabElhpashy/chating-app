@@ -26,8 +26,8 @@ function Regest() {
                       <input placeholder="Enter Last name" type='text'/>
                       <input placeholder="Enter Phone number" type='text'/>
                       <input placeholder="Enter email" type='text'/>
-                      <input className={Style.III} placeholder='password' type='password'/><br/>
-                      <button className={Style.Buttons}>Sign up</button>
+                      <input className={Style.III} placeholder='password' type='password'/>
+                      <button className={Style.Buttonss}>Sign up</button>
 
                   </div>
            </div> 
