@@ -16,16 +16,16 @@ function Regest() {
        <h2 onClick={()=>setCheckLogin(true)} style={{color:CheckLogin?'orange':'white'}}>Log in</h2> <h2>-</h2>
        <h2 onClick={()=>setCheckLogin(false)} style={{color:!CheckLogin?'orange':'white'}}>Sign up</h2></div> 
            <div className={Style.DivInput} style={{display:CheckLogin?"flex":"none"}} >
-                      <input placeholder="User name" type='username'/>
-                      <input placeholder='password' type='password'/>
+                      <input placeholder="Enter User name" type='username'/>
+                      <input placeholder='Enter password' type='password'/>
                       <button className={Style.Buttons}>Log In</button>
 
                   </div>
                   <div className={Style.DivInputSignup} style={{display:!CheckLogin?"grid":"none"}} >
-                      <input placeholder="First name" type='text'/>
-                      <input placeholder="Last name" type='text'/>
-                      <input placeholder="Phone number" type='text'/>
-                      <input placeholder="email" type='text'/>
+                      <input placeholder="Enter First name" type='text'/>
+                      <input placeholder="Enter Last name" type='text'/>
+                      <input placeholder="Enter Phone number" type='text'/>
+                      <input placeholder="Enter email" type='text'/>
                       <input className={Style.III} placeholder='password' type='password'/><br/>
                       <button className={Style.Buttons}>Sign up</button>
 
