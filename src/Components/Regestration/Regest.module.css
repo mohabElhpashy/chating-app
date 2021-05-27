@@ -1,0 +1,84 @@
+.RegestContent{
+   position: relative;
+   width: 50%;
+   position: absolute;
+   left: 27%;
+   top: 12%;
+   text-align: center;
+}
+.DivInput{
+    display: none;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+.DivLogin{
+    display: inline-flex;
+
+}
+.DivLogin h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.DivInput input{
+    background-color: #808080b5;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+
+}
+.DivInput input::placeholder{
+    color: white;
+    /* padding-left: 40%; */
+    text-align: center;
+}
+.Buttons{
+
+
+
+    background-color: orange;
+    width: 149px;
+    height: 65px;
+border: 1px solid orange;
+margin-top: 10px;
+border-radius: 15px;
+font-style: italic;
+font-weight: bold;
+margin: auto;
+margin-top: 10px;}
+    .Buttons:hover{
+        cursor: pointer;
+    }
+ /*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+ .DivInputSignup{
+    display: none;
+    flex-direction: column;
+    grid-template-columns: repeat(2,50%);
+    width: 70%;
+    margin: auto;
+    text-align: center;
+ }   
+
+ .DivInputSignup input{
+    background-color: #808080b5;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+ }
+ .III{
+     grid-template-columns: 2/3;
+ }
+ .DivInputSignup input::placeholder{
+    color: white;
+    /* padding-left: 40%; */
+    text-align: center;
+ }
