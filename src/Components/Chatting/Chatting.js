@@ -5,17 +5,20 @@ import {CgProfile} from 'react-icons/cg';
 import DarkImage from '../../Images/background.jpg';
 function Chatting() {
     const [darkMode,setdarkMode]=useState(true)
-    const ActivateDarkmode=()=>{
-    setdarkMode(!darkMode)
 
-    if(darkMode===true){  
-        document.getElementsByTagName("body")[0].style.backgroundImage='none';
+    if(darkMode){ document.getElementsByTagName("body")[0].style.backgroundImage='none';
+    document.getElementsByTagName("body")[0].style.backgroundColor='#333';
+
 }
-else{              document.body.style.backgroundImage=`url(${DarkImage})`;
+else{
+    document.getElementsByTagName("body")[0].style.backgroundImage='none';
+    document.getElementsByTagName("body")[0].style.backgroundColor='white';
+
 }
-    
-    }
+    const ActivateDarkmode=()=>{
+    setdarkMode(!darkMode) }
     return (
+        
         <div className={Style.Chat} >
             <header className={Style.mainHeader} style={{backgroundColor:darkMode?'#333':'white'}}>
                 <h1 style={{color:darkMode?'white':'black'}} >Messages</h1>
