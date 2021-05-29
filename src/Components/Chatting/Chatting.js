@@ -2,7 +2,6 @@ import React,{useState} from 'react'
 import Style from './Chatting.module.css';
 import {BsMoon} from 'react-icons/bs'
 import {CgProfile} from 'react-icons/cg';
-import DarkImage from '../../Images/background.jpg';
 function Chatting() {
     const [darkMode,setdarkMode]=useState(true)
 
