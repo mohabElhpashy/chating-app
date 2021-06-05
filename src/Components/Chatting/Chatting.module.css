@@ -41,7 +41,7 @@
     }
     .availableContacts div:hover{
         cursor: pointer;
-        background-color: #666;
+        background-color: #555;
     }
 }
 @media (max-width:800px){
